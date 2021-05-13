@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>eCommerce - HTML</title>
     </head>
-    <body>
+    <body style="background: linear-gradient(#AAAAAA, #FEFEFE, #CCCCCC )">
     
         <h1>Lojinha de Teclados do Douglas</h1>
 
@@ -25,24 +25,34 @@
             <h2>Keycron K2</h2>
 
             <p>Um teclado bluetooth com ótimo alcance, que usa as switch <em>Cherry Red</em> excelentes para games. Possui <strong>iluminação RGB</strong> com mais de 10 efeitos diferentes.
-                Ver mais detalhes e Preço do Keycron K2</p>
-
+        
+            <img style="width: 300px; display: block;margin: 1em 0 0 0;" src="./images/keycron.jpg" alt="Teclado Keycrom K2">
+            <div>
+                <a href="./pages/keycron.html">mais detalhes e Preço do Keycron K2</a></p>
+            </div>
         </section>
 
         <section class="teclado">
             
             <h2>OLKB Plank</h2>
 
-            <p>Com apenas 44 teclas esse teclado ortolinear vai melhorar sua ergonomia ao trabalhar com código. Suas mão nao precisam fazer um caminho muito longo entre uma tecla e outra. E o melhor, possui firmware QMK o que permite você atualizar gravar quantas macros vc desejar.
-            Ver mais detalhes e Preço do OLKB
+            <p>Com apenas <strong>44 teclas</strong> esse teclado ortolinear vai melhorar sua ergonomia ao trabalhar com código. Suas mão nao precisam fazer um caminho muito longo entre uma tecla e outra. E o melhor, possui firmware QMK o que permite você atualizar gravar <em>quantas macros vc desejar.</em>
             </p>
+
+            <img style="width: 300px;display: block;margin: 1em 0 0 0 ; " src="./images/planck1.jpeg" alt="Teclado OLKB Plank">
+
+            <a href="./pages/olkb.html">Ver mais detalhes e Preço do OLKB</a>
 
         </section>
 
         <section>
             <h2>Ergo Dox</h2>
             <p>Falando em teclado ergonomico e que aceita macros, nao podemos deixar de apresentar o Ergo Dox. Um teclado revolucionario que te ensinará a digitar novamente.
-                Ver mais detalhes e Preço Ergo Dox</p>
+                </p>
+
+                <img style="width: 300px;display: block;margin: 1em 0 0 0;" src="./images/ergodox2.jpg" alt="Teclado Ergo Dox">
+
+            <a href="./pages/ergodox.html">Ver mais detalhes e Preço Ergo Dox</a>
         </section>
 
         <p>Teclados mais vendidos:</p>
@@ -51,29 +61,32 @@
             <li>Ergo Dox</li>
             <li>Keycron K2</li>
         </ol>
+        <div class="contato">
+            <form action="/contato">
+                <label for="nome">
+                    Nome:
+                </label>
+                <input type="text" placeholder="Seu Nome" id="nome">
+                <br>
+                <label for="email">
+                    Email:
+                </label>
+                <input style="margin-top: 2px;" type="email" placeholder="Seu Email" id="email">
+                <br>
+                <label style="vertical-align: top;" for="mensagem">Mensagem:</label>
+                <textarea style="margin: 2px;" name="Mensagem:" id="mensagem" cols="15" rows="5"></textarea>
+                <br>
+                <button type="submit">
+                    Enviar
+                </button>
 
-        <form action="submit">
-            <label for="nome">
-                Nome
-            </label>
-            <input type="text" id="nome" placeholder="Seu Nome">
-            <label for="email">
-                Email
-            </label>
-            <input type="email" placeholder="Seu Email">
-            <textarea name="Mensagem:" id="mensagem" cols="30" rows="10"></textarea>
-            <button>
-                Enviar
-            </button>
-
-        </form>
-
-        <footer>
+            </form>
+        </div>
+        <footer >
             <p>Siga nos nas redes sociais:</p>
             <ul>
-
-                <li><a href="https://Instagram.com/douglascorrea.io" target="_blank">Instagram</a></li>
-                <li><a href="https://youtube.com/c/douglascorrea" target="_blank">Youtube</a></li>
+                <li style="display: inline-block;margin: 0 2px 0 0 ;"><a href="https://Instagram.com/douglascorrea.io" target="_blank">Instagram</a></li>
+                <li style="display: inline-block;"><a href="https://youtube.com/c/douglascorrea" target="_blank">Youtube</a></li>
             </ul>
         </footer>
     </body>
